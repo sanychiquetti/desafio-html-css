@@ -1,0 +1,8 @@
+.informacao__descricao{
+    color: var(--white);
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 15px 0 15px;    
+}
