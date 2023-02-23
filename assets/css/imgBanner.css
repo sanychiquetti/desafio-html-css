@@ -1,19 +1,21 @@
-.imgBanner img{
-    width: 70%vw;
+.imgBanner {
+    width: 50vw;
     height: auto;
 }
 
 
 @media screen and(max-width: 750px) {
-    .imgBanner img {
-        width: 300px;
-        height: auto;
+    .imgBanner {
+        width: 100vw;
+        padding: 0;
+        margin: auto;
     }
 }
 @media screen and(max-width: 1020px) {
     .imgBanner {
-        width: 100%;
-        height: auto;
+        width: 100vw;
+        padding: 0;
+        margin: auto;
     }
 }
 

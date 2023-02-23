@@ -3,9 +3,18 @@
     width: 40vw;
 }
 
-@media screen and (max-width:375px) {
-    .informacao__descricao{
-        width: 100vw;
+@media screen and (max-width:1020px) {
+    .informacao{
+        width: auto;
+        padding: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .informacao{
+        width: auto;
+        padding: auto;
         justify-content: center;
     }
 }

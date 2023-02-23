@@ -5,11 +5,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     width: 100vw;
-    max-width: 1440px;
-} 
+}
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:688px) {
     .bg-fundo{
         background-image: url(../../assets/images/bg-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }

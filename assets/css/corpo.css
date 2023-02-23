@@ -5,10 +5,21 @@
     padding: 30px;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1020px) {
     .corpo{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: auto;
     }
 }
+
+@media screen and (max-width:688px) {
+    .corpo{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+

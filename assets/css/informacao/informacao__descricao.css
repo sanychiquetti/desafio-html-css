@@ -1,14 +1,23 @@
 .informacao__descricao{
     color: var(--white);
     font-family: var(--poppins);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     text-align: justify;
     padding: 20px 0 20px;    
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1020px) {
     .informacao__descricao{
         text-align: inherit;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .informacao__descricao{
+        text-align: center;
+        padding: auto;
+        font-size: .8rem;
     }
 }
