@@ -1,18 +1,18 @@
 .informacao__botao{
     background-color: var(--white);
-    color: var(--softMagenta);
-    width: 170px;
-    height: 50px;
     border: none;
     border-radius: 30px;
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
+    color: var(--violet);
     font-family: var(--poppins);
     font-size: 18px;
+    height: 50px;
     transition: all 1s ease;
+    width: 170px;
 }
 
 .informacao__botao:hover{
+    background-color: var(--softMagenta);
     cursor: pointer;
     color: var(--white);
-    background-color: var(--softMagenta);
 }
