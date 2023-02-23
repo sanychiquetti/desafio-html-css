@@ -15,4 +15,5 @@
     cursor: pointer;
     color: var(--white);
     background-color: var(--softMagenta);
+    border-color: var(--softMagenta);
 }
