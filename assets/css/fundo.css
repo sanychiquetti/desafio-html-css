@@ -1,0 +1,8 @@
+.bg-fundo{
+    background-image: url(../../assets/images/bg-desktop.svg);
+    background-size: cover;
+    background-color: var(--violet);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+} 

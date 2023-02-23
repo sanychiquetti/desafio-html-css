@@ -1,0 +1,26 @@
+.rede-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.rede-sociais a i{
+    color: var(--white);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.rede-sociais a i:hover{
+    color: var(--softMagenta);
+    border-color: var(--softMagenta);
+}
+
+.fab{
+    padding: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,13 @@
+.attribution{
+    color: var(--softMagenta);
+    font-family: var(--poppins);
+    font-size: 14px;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.attribution a {
+    color: var(--white);
+}

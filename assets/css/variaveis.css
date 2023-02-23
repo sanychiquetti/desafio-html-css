@@ -1,9 +1,11 @@
 :root{
-    --poppins: 'Poppins' sans-serif;
-    --opessans: 'Opes Sans' sans-serif;
-
-    --white: #ffffff;
-    --softMagenta: hsl(300, 69%, 71%);
-    --violet: hsl(257, 40%, 49%);
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
 }
 
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --softMagenta: hsl(300, 69%, 71%);
+    --white: #ffffff;
+    --azul: : hsl(228, 45%, 44%);
+}
