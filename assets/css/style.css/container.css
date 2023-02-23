@@ -1,0 +1,42 @@
+.container{
+    /* display: grid; */
+    background-image: url('../../../assets/images/bg-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: var(--violet);
+    width: 100%;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        "logo logo " 
+        "corpo corpo " 
+        "redesSociais redesSociais"
+        "rodape rodape" 
+    /* grid-template-columns: repeat (2,1fr); */
+}
+.logo{
+    grid-area: logo;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.corpo{
+    grid-area: corpo;
+    margin-top: 100px;
+}
+/* .imgBanner{
+    grid-area: imagemBanner;
+}
+
+.informacao{
+    grid-area: informacao;
+} */
+
+.redes-sociais{
+    grid-area: redesSociais;
+}
+
+.rodape{
+    grid-area: rodape;
+}
