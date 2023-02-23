@@ -2,3 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+i{
+    text-decoration: none;
+    color: var(--white);
+}

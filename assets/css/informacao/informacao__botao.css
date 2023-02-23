@@ -8,6 +8,7 @@
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.6);
     font-family: var(--poppins);
     font-size: 18px;
+    transition: all 1s ease;
 }
 
 .informacao__botao:hover{
