@@ -6,11 +6,11 @@
 
 @media screen and(max-width: 750px) {
     .imgBanner img {
-        width: 100vw;
+        width: 300px;
         height: auto;
     }
 }
-@media screen and(max-width: 1440px) {
+@media screen and(max-width: 1020px) {
     .imgBanner {
         width: 100%;
         height: auto;
