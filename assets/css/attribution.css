@@ -1,8 +1,10 @@
 .attribution{
-     font-size: 12px;
+    color: var(--softMagenta);
+    font-family: var(--poppins);
+     font-size: 14px;
      text-align: center;
      margin-bottom: 0;
-     padding-top: 15px;
+     padding-top: 10px;
 }
 
 .attribution a {
