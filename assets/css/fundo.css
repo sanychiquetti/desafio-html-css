@@ -4,6 +4,12 @@
     background-color: var(--violet);
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100%;
+    width: 100vw;
     max-width: 1440px;
 } 
+
+@media screen and (max-width:375px) {
+    .bg-fundo{
+        background-image: url(../../assets/images/bg-mobile.svg);
+    }
+}

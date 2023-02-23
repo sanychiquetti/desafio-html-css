@@ -1,3 +1,19 @@
-.imgBanner{
-    width: 825px;
+.imgBanner img{
+    width: 70%vw;
+    height: auto;
 }
+
+
+@media screen and(max-width: 750px) {
+    .imgBanner img {
+        width: 100vw;
+        height: auto;
+    }
+}
+@media screen and(max-width: 1440px) {
+    .imgBanner {
+        width: 100%;
+        height: auto;
+    }
+}
+

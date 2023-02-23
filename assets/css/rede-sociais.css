@@ -23,3 +23,9 @@
     padding: 5px;
     margin-right: 10px;
 }
+
+@media screen and (max-width:735px) {
+    .rede-sociais{
+        justify-content: center;
+    }
+}

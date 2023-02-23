@@ -1,4 +1,11 @@
 .informacao{
     margin-top: 75px;
-    width: 490px;
+    width: 40vw;
+}
+
+@media screen and (max-width:375px) {
+    .informacao__descricao{
+        width: 100vw;
+        justify-content: center;
+    }
 }

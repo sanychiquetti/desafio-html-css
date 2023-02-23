@@ -1,3 +1,9 @@
 .rodape{
     display: flex;
 }
+
+@media screen and (max-width:1440px) {
+    .rodape{
+        justify-content: center;
+    }
+}
