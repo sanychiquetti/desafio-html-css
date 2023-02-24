@@ -1,7 +1,7 @@
 .attribution{
     color: var(--softMagenta);
     font-family: var(--poppins);
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: left;
     margin-left: 80px;
     margin-bottom: 0;
@@ -10,4 +10,19 @@
 
 .attribution a {
     color: var(--white);
+}
+
+@media screen and (max-width:1020px) {
+    .attribution {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:688px) {
+    .attribution {
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        font-size: .650rem;
+    }
 }
