@@ -23,7 +23,7 @@ See hover states for all interactive elements on the page
 <a><img src="./resultado/desktop.png">Huddly - desktop</a>
 
 ## See the result for the 375px mobile
-<a><img src="./resuldado/mobile.png">Huddly - desktop</a>
+<a><img src="./resultado/mobile.png">Huddly - desktop</a>
 
 ### Links
 
