@@ -1,4 +1,9 @@
+main{
+    max-width: 1440px;
+}
+
 .bg-fundo{
+    display: flex;
     background-image: url(../../assets/images/bg-desktop.svg);
     background-size: cover;
     background-color: var(--violet);
